@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>KEC CREDIT UPDATE</title>
+    <style>
+        h1{
+    font-family: Lucida Handwriting ;
+    font-size: 21px;
+    font-weight: bolder;
+    text-align: center;
+    border-style: outset;
+    border-color: rgb(69, 6, 40);
+    width: 25%;
+    padding: 10px;
+    margin: auto;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        border-color: rgb(70, 17, 17);
+        width: 80%;
+        border: solid;
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+        width: 50%;
+    }
+    .box{
+        border: solid;
+        border-radius: 10px;
+        border-color: rgb(53, 35, 33);
+        padding: 10px;
+        border-width: 3px;
+    }
+    .button{
+        text-align: center;
+    }
+    .bg{
+    background-image: url(https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-zoom-virtual-background-_Tcjok-d9b4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    </style>
+</head>
+<body class="bg">
+    <br><br>
+    <h1>CREDIT UPDATE</h1>
+    <br><br><br>
+    <form class="container">  
+        <div class="box">
+        <label>PREVIOUS CREDIT DETAILS : </label><br><br>
+        <input type="number" name="firstyearscore" size="10" placeholder="First Year Credit"/> <br><br>
+        <input type="number" name="secondyearscore" size="10" placeholder="Second Year Credit"/><br><br>
+        <input type="number" name="thirdyearscore" size="10" placeholder="Third Year Credit"/> <br><br>
+        <input type="number" name="fourthyearscore" size="10" placeholder="Fourth Year Credit"/> <br><br>
+        <input type="number" name="previoustotalcredit" size="10" required placeholder="Total Credit"/><br><br><br>
+        </div><br>
+        <div class="box">
+        <label>OBTAINED CREDIT DETAILS : </label><br><br><br>
+        <input type="text number" name="subject1" size="10" placeholder="Sub Code"/>       <input type="text" name="subjectname1" size="20" placeholder="Sub Name"/>        <input type="number" name="subjectcredit1" size="5" placeholder="Credit"/><br> <br>  
+        <input type="text number" name="subject2" size="10" placeholder="Sub Code"/>       <input type="text" name="subjectname2" size="20" placeholder="Sub Name"/>        <input type="number" name="subjectcredit2" size="5" placeholder="Credit"/><br> <br>  
+        <input type="text number" name="subject3" size="10" placeholder="Sub Code"/>       <input type="text" name="subjectname3" size="20" placeholder="Sub Name"/>        <input type="number" name="subjectcredit3" size="5" placeholder="Credit"/><br> <br>  
+        <input type="text number" name="subject4" size="10" placeholder="Sub Code"/>       <input type="text" name="subjectname4" size="20" placeholder="Sub Name"/>        <input type="number" name="subjectcredit4" size="5" placeholder="Credit"/><br> <br>  
+        <input type="text number" name="subject5" size="10" placeholder="Sub Code"/>       <input type="text" name="subjectname5" size="20" placeholder="Sub Name"/>        <input type="number" name="subjectcredit5" size="5" placeholder="Credit"/><br> <br>  
+        
+        <input type="number" name="creditsobtained" size="10" required placeholder="Total Credit"/>
+        </div>
+    </form><br><br>
+    <div class="button">
+    <input type="button" value="Update"/>
+    </div>
+</body>
+</html>
